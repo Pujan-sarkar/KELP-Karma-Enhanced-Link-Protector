@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Safe Link Checker",
+  "description": "Automatically scans hyperlinks on web pages and alerts users if any links lead to potentially harmful or malicious websites.",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+   
+  }
+}
