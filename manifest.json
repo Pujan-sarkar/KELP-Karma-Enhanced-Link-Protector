@@ -7,6 +7,11 @@
     "activeTab",
     "storage"
   ],
+  "icons": {
+    "16": "images/Kelp 16.png",
+    "64": "images/Kelp 64.png",
+    "128": "images/Kelp 128.png"
+  },
   "background": {
     "service_worker": "background.js"
   },
@@ -17,7 +22,10 @@
     }
   ],
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "images/Kelp 128.png"
+    }
    
   }
 }
