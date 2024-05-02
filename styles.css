@@ -1,27 +1,56 @@
-/* styles.css */
-
 body {
-    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    background-color: #191e24;
+    border: 3px solid #387EB8;
+    max-width: 300px;
+    margin: 20px auto;
+    border-radius: 20px;
     padding: 20px;
-    background-color: #f7f7f7;
-    color: #333;
-}
-.container {
-    max-width: 400px;
-    margin: 0 auto;
+    text-align: center;
 }
 
-h2 {
+.card img {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+.content {
+    margin-top: 15px;
+}
+
+.welcometo {
+    color: #387EB8;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.kelp {
+    color: #FFE052;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.message {
+    color: #fff;
     margin-bottom: 20px;
-    color: #007bff;
 }
 
-p {
-    margin-bottom: 30px;
+.button {
+    padding: 10px 20px;
+    background-color: #FFE052;
+    color: #191e24;
+    border: none;
+    border-radius: 5em;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-#result {
-    font-weight: bold;
-    font-size: 16px;
-    color: #28a745; /* Green color for positive result */
+.button:hover {
+    background-color: #387EB8;
+    color: #fff;
 }
