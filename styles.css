@@ -5,17 +5,17 @@ body {
 }
 
 .card {
-    background-color: #191e24;
-    border: 3px solid #387EB8;
-    max-width: 300px;
-    margin: 20px auto;
+    background-color: #accaf0;
+    border: 10px solid #e4ebf0;
+    max-width: 500px;
+    max-height: 300px;
     border-radius: 20px;
-    padding: 20px;
+    padding: 50px;
     text-align: center;
 }
 
 .card img {
-    width: 80px;
+    width: 180px;
     margin-bottom: 15px;
 }
 
@@ -25,13 +25,13 @@ body {
 
 .welcometo {
     color: #387EB8;
-    font-size: 1.5em;
+    font-size: 1.8em;
     margin-bottom: 5px;
 }
 
 .kelp {
     color: #FFE052;
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin-bottom: 15px;
 }
 
