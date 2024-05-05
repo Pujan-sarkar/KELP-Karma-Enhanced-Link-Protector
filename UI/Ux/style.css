@@ -1,4 +1,4 @@
-.card {
+/* .card {
     background-color: #191e24;
     border: 3px solid #387EB8;
     display: flex;
@@ -36,4 +36,62 @@
   
   .kelp {
     color: #FFE052;
-  }
+  } */
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    background-color: #ed3820;
+    border: 10px solid #e4ebf0;
+    max-width: 500px;
+    max-height: 300px;
+    border-radius: 20px;
+    padding: 50px;
+    text-align: center;
+}
+
+.card img {
+    width: 180px;
+    margin-bottom: 15px;
+}
+
+.content {
+    margin-top: 15px;
+}
+
+.welcometo {
+    color: #387EB8;
+    font-size: 1.8em;
+    margin-bottom: 5px;
+}
+
+.kelp {
+    color: #FFE052;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.message {
+    color: #220f0f;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #FFE052;
+    color: #191e24;
+    border: none;
+    border-radius: 5em;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+    background-color: #387EB8;
+    color: #fff;
+}
